@@ -8,7 +8,7 @@ export default function DetailPage4() {
       <div className="detail_process_container">
         <div className="dt_pc_content_block">
           <div className="main_image">
-            <Image className="detail_image" src={logodetail4} />
+            <Image className="detail_image" src={logodetail4} alt="logodetail4" />
           </div>
           <div className="detail_text">
             <div className="head_text">การเปิดใช้งาน</div>

@@ -15,15 +15,15 @@ const SecPartnerWidget = () => {
         <div className="pn_content_block">
           <div className="head_text">ร่วมสนันสนุนโดย</div>
           <div className="top_logo">
-            <Image className="maejo_image" src={maejo} />
-            <Image className="fund_image" src={fund} />
-            <Image className="nia_image" src={Nia} />
+            <Image className="maejo_image" src={maejo} alt="maejo" />
+            <Image className="fund_image" src={fund} alt="fund" />
+            <Image className="nia_image" src={Nia} alt="Nia" />
           </div>
           <div className="button_logo">
-            <Image className="tpqi_image" src={tpqi} />
-            <Image className="broker_image" src={broker} />
-            <Image className="startup_image" src={startup} />
-            <Image className="university_image" src={university} />
+            <Image className="tpqi_image" src={tpqi} alt="tpqi" />
+            <Image className="broker_image" src={broker} alt="broker" />
+            <Image className="startup_image" src={startup} alt="startup" />
+            <Image className="university_image" src={university} alt="university" />
           </div>
         </div>
       </div>

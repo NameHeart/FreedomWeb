@@ -27,36 +27,36 @@ const AaPlatform = () => {
             <div className="toptap">
               <button className={toggleState === 1 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(1)}>
                 <div className="card_toptap">
-                  <Image className="image_toptap" src={verified} />
+                  <Image className="image_toptap" src={verified} alt="verified" />
                   <div className="text_image">
-                    <Image className="Rectangle" src={Rectangle} />
+                    <Image className="Rectangle" src={Rectangle} alt="Rectangle" />
                     <div className="text_image_font">ส่งรายละเอียด</div>
                   </div>
                 </div>
               </button>
               <button className={toggleState === 2 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(2)}>
                 <div className="card_toptap">
-                  <Image className="image_toptap" src={checklist} />
+                  <Image className="image_toptap" src={checklist} alt="checklist" />
                   <div className="text_image">
-                    <Image className="Rectangle" src={Rectangle} />
+                    <Image className="Rectangle" src={Rectangle} alt="Rectangle" />
                     <div className="text_image_font">ประเมินราคา</div>
                   </div>
                 </div>
               </button>
               <button className={toggleState === 3 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(3)}>
                 <div className="card_toptap">
-                  <Image className="image_toptap" src={growth} />
+                  <Image className="image_toptap" src={growth} alt="growth" />
                   <div className="text_image">
-                    <Image className="Rectangle" src={Rectangle} />
+                    <Image className="Rectangle" src={Rectangle} alt="Rectangle" />
                     <div className="text_image_font">เริ่มพัฒนา</div>
                   </div>
                 </div>
               </button>
               <button className={toggleState === 4 ? "tabs active-tabs" : "tabs"} onClick={() => toggleTab(4)}>
                 <div className="card_toptap">
-                  <Image className="image_toptap" src={powebutton} />
+                  <Image className="image_toptap" src={powebutton} alt="powebutton" />
                   <div className="text_image">
-                    <Image className="Rectangle" src={Rectangle} />
+                    <Image className="Rectangle" src={Rectangle} alt="Rectangle" />
                     <div className="text_image_font">เปิดใช้งาน</div>
                   </div>
                 </div>
@@ -92,7 +92,7 @@ const AaPlatform = () => {
                 rel="noopener noreferrer">
                 <div className="card_toptap">
                   <div className="text_image">
-                    <Image className="Rectangle" src={Rectangle} />
+                    <Image className="Rectangle" src={Rectangle} alt="Rectangle" />
                     <div className="text_image_font">ส่งรายละเอียด</div>
                   </div>
                 </div>
@@ -105,7 +105,7 @@ const AaPlatform = () => {
                 rel="noopener noreferrer">
                 <div className="card_toptap">
                   <div className="text_image">
-                    <Image className="Rectangle" src={Rectangle} />
+                    <Image className="Rectangle" src={Rectangle} alt="Rectangle" />
                     <div className="text_image_font">ประเมินราคา</div>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ const AaPlatform = () => {
                 rel="noopener noreferrer">
                 <div className="card_toptap">
                   <div className="text_image">
-                    <Image className="Rectangle" src={Rectangle} />
+                    <Image className="Rectangle" src={Rectangle} alt="Rectangle" />
                     <div className="text_image_font">เริ่มพัฒนา</div>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ const AaPlatform = () => {
                 rel="noopener noreferrer">
                 <div className="card_toptap">
                   <div className="text_image">
-                    <Image className="Rectangle" src={Rectangle} />
+                    <Image className="Rectangle" src={Rectangle} alt="Rectangle" />
                     <div className="text_image_font">เปิดใช้งาน</div>
                   </div>
                 </div>

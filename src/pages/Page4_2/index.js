@@ -9,11 +9,11 @@ export default function Page4_2() {
     <Page4_2Styled>
       <div className="main">
         <div className="image_main">
-          <Image className="main_image" src={page4main2} />
+          <Image className="main_image" src={page4main2} alt="page4main2" />
         </div>
         <div className="main_text">
           <div className="logo_text">
-            <Image className="main_image" src={logotext} />
+            <Image className="main_image" src={logotext} alt="logotext" />
             <div className="head_text">
               <div>รับทำ SEO</div>
             </div>

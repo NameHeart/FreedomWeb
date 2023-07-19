@@ -12,7 +12,7 @@ const Navbar = ({ data, image }) => {
       <header>
         <nav className={`nav`}>
           <Link to="Home" style={{ cursor: "pointer" }} spy={true} smooth={true} duration={500} offset={50}>
-            <Image className="image_nav" src={image} />
+            <Image className="image_nav" src={image} alt="image" />
           </Link>
           <div onClick={() => setNavActive(!navActive)} className={`nav__menu-bar`}>
             <div></div>

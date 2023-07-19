@@ -1,9 +1,6 @@
 import { DetailPage2Styled } from "./styled";
 import logodetail2 from "../../../../public/assets/images/page2/logodetail2.png";
-import Rectangle from "../../../../public/assets/images/Rectangle.png";
 import Image from "next/image";
-import checklist from "../../../../public/assets/images/checklist.png";
-import growth from "../../../../public/assets/images/growth.png";
 
 export default function DetailPage2() {
   return (
@@ -11,7 +8,7 @@ export default function DetailPage2() {
       <div className="detail_process_container">
         <div className="dt_pc_content_block">
           <div className="main_image">
-            <Image className="detail_image" src={logodetail2} />
+            <Image className="detail_image" src={logodetail2} alt="logodetail2" />
           </div>
           <div className="detail_text">
             <div className="head_text">การประเมินราคา</div>

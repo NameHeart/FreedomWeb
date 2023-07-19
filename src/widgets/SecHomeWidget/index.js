@@ -13,10 +13,10 @@ const SecHomeWidget = () => {
         <div className="homepage_container">
           <div className="hp_content_block">
             <div className="logomain">
-              <Image className="logoimage" src={Logomain} />
+              <Image className="logoimage" src={Logomain} alt="Logomain" />
             </div>
             <div className="main_text">
-              <Image className="logofreedomimage" src={Freedominnovation} />
+              <Image className="logofreedomimage" src={Freedominnovation} alt="Freedominnovation" />
               <div className="main_description">
                 ยกระดับธุรกิจ ด้วยเทคโนโลยีที่ทันสมัย
                 <br /> แนวคิดที่ก้าวไกล อิสระสร้างได้ด้วยตัวคุณเอง
@@ -25,13 +25,17 @@ const SecHomeWidget = () => {
               <div className="text_phone">064-578-6898</div>
               <div className="btn_line">
                 <div>
-                  <Buttons.BgIconPrefix label={<p className="button_text">ADD LINE</p>} theme_line icon={<Image className="logoaddline" src={logoaddline} />} />
+                  <Buttons.BgIconPrefix
+                    label={<p className="button_text">ADD LINE</p>}
+                    theme_line
+                    icon={<Image className="logoaddline" src={logoaddline} alt="logoaddline" />}
+                  />
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <Image className="hp_bg" src={imagephone} />
+        <Image className="hp_bg" src={imagephone} alt="imagephone" />
       </SecHomeWidgetStyled>
     </div>
   );

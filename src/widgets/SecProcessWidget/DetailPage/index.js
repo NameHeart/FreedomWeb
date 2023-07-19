@@ -8,7 +8,7 @@ export default function DetailPage() {
       <div className="detail_process_container">
         <div className="dt_pc_content_block">
           <div className="main_image">
-            <Image className="detail_image" src={detailimage} />
+            <Image className="detail_image" src={detailimage} alt="detailimage" />
           </div>
           <div className="detail_text">
             <div className="head_text">ส่งรายละเอียด</div>

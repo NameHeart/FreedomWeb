@@ -22,7 +22,7 @@ const Navbar = () => {
       <header>
         <nav className={`nav`}>
           <Link href={"/"}>
-            <Image src={Logo} width={150} height={54.38} />
+            <Image src={Logo} width={150} height={54.38} alt="logo" />
           </Link>
           <div onClick={() => setNavActive(!navActive)} className={`nav__menu-bar`}>
             <div></div>

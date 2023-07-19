@@ -18,7 +18,7 @@ const FooterWidget = () => {
             <div className="main_phone">089 5545354</div>
             <div className="main_email">freedominnotech@gmail.com</div>
             <div className="button_line">
-              <Buttons.BgIconPrefix label={<p className="button_text">ADD LINE</p>} theme_green icon={<Image className="logoimage" src={line} />} />
+              <Buttons.BgIconPrefix label={<p className="button_text">ADD LINE</p>} theme_green icon={<Image className="logoimage" src={line} alt="line" />} />
             </div>
           </div>
           <div className="group_detail">

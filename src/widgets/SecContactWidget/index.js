@@ -15,11 +15,11 @@ const SecContactWidget = () => {
         <div className="contact_container">
           <div className="ct_content_block">
             <div className="main_headtext">
-              <Image className="main_text" src={maintext} />
-              <Image className="main_logo" src={Group} />
+              <Image className="main_text" src={maintext} alt="maintext" />
+              <Image className="main_logo" src={Group} alt="Group" />
             </div>
             <div className="center_description">
-              <Image className="main_image" src={mainimage} />
+              <Image className="main_image" src={mainimage} alt="mainimage" />
               <div className="description">
                 <div className="description_font">
                   บริษัทเราได้รับความไว้วางใจ ให้ช่วยเข้ามาเติมเต็มในส่วนของด้านเทคโนโลยี เพื่อเพิ่มขีด
@@ -30,9 +30,9 @@ const SecContactWidget = () => {
               </div>
             </div>
             <div className="logo_image">
-              <Image className="merge_image" src={merge} />
-              <Image className="broker_image" src={broker} />
-              <Image className="fund_image" src={fund} />
+              <Image className="merge_image" src={merge} alt="merge" />
+              <Image className="broker_image" src={broker} alt="broker" />
+              <Image className="fund_image" src={fund} alt="fund" />
             </div>
           </div>
         </div>

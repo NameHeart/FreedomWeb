@@ -2,7 +2,7 @@ import maid from "../../../public/assets/images/page3/maid.png";
 import Orderservice from "../../../public/assets/images/page3/Orderservice.png";
 import Image from "next/image";
 import parttime from "../../../public/assets/images/page3/parttime.png";
-import FREEDOM from "../../../public/assets/images/page3/FREEDOM.png";
+import Freedomtext from "../../../public/assets/images/page3/FREEDOM.png";
 import driver from "../../../public/assets/images/page3/driver.png";
 import shopping from "../../../public/assets/images/page3/shopping.png";
 import learning from "../../../public/assets/images/page3/learning.png";
@@ -19,7 +19,7 @@ const SecProfolioWidget = () => {
         <div className="profolio_container">
           <div className="pf_content_block">
             <div className="main_text">
-              <Image className="freedomtext" src={FREEDOM} />
+              <Image className="freedomtext" src={Freedomtext} alt="Freedomtext" />
               <div className="main_text_center">OUR SERVICE</div>
               <div className="description">คุณคิด เราทำ พัฒนาความต้องการที่อิสระของคุณ สร้างสรรสิ่งใหม่เพื่ออนาคตที่ไม่เหมือนเดิม</div>
             </div>
@@ -27,14 +27,14 @@ const SecProfolioWidget = () => {
               <div className="group_card_wrab">
                 <a href="/" className="card" target="_blank" rel="noopener noreferrer">
                   <div className="image_card">
-                    <Image className="card_image" src={maid} />
+                    <Image className="card_image" src={maid} alt="maid" />
                     <div className="text_image">Maid service</div>
                     <div className="text_thai">ระบบบริการเรียกแม่บ้าน</div>
                   </div>
                 </a>
                 <a href="/" className="card" target="_blank" rel="noopener noreferrer">
                   <div className="image_card">
-                    <Image className="card_image" src={parttime} />
+                    <Image className="card_image" src={parttime} alt="parttime" />
                     <div className="text_image">Part time service</div>
                     <div className="text_thai">
                       ระบบบริการ <br />
@@ -44,56 +44,56 @@ const SecProfolioWidget = () => {
                 </a>
                 <a href="/" className="card" target="_blank" rel="noopener noreferrer">
                   <div className="image_card">
-                    <Image className="card_image" src={driver} />
+                    <Image className="card_image" src={driver} alt="driver" />
                     <div className="text_image">Driver service</div>
                     <div className="text_thai">ระบบบริการเรียกคนขับรถ</div>
                   </div>
                 </a>
                 <a href="/" className="card" target="_blank" rel="noopener noreferrer">
                   <div className="image_card">
-                    <Image className="card_image" src={shopping} />
+                    <Image className="card_image" src={shopping} alt="shopping" />
                     <div className="text_image">Shopping online</div>
                     <div className="text_thai">ระบบร้านค้าออนไลน์</div>
                   </div>
                 </a>
                 <a href="/" className="card" target="_blank" rel="noopener noreferrer">
                   <div className="image_card">
-                    <Image className="card_image" src={learning} />
+                    <Image className="card_image" src={learning} alt="learning" />
                     <div className="text_image">E-learning </div>
                     <div className="text_thai">ระบบการเรียนออนไลน์</div>
                   </div>
                 </a>
                 <a href="/" className="card" target="_blank" rel="noopener noreferrer">
                   <div className="image_card">
-                    <Image className="card_image" src={Orderservice} />
+                    <Image className="card_image" src={Orderservice} alt="Orderservice" />
                     <div className="text_image">Maid service</div>
                     <div className="text_thai">ระบบบริการเรียกแม่บ้าน</div>
                   </div>
                 </a>
                 <a href="/" className="card" target="_blank" rel="noopener noreferrer">
                   <div className="image_card">
-                    <Image className="card_image" src={laundry} />
+                    <Image className="card_image" src={laundry} alt="laundry" />
                     <div className="text_image">Laundry service</div>
                     <div className="text_thai">ระบบร้านซักผ้า</div>
                   </div>
                 </a>
                 <a href="/" className="card" target="_blank" rel="noopener noreferrer">
                   <div className="image_card">
-                    <Image className="card_image" src={deliverly} />
+                    <Image className="card_image" src={deliverly} alt="deliverly" />
                     <div className="text_image">Food Deliverly</div>
                     <div className="text_thai">ระบบส่งอาหารเดลิเวอรี่</div>
                   </div>
                 </a>
                 <a href="/" className="card" target="_blank" rel="noopener noreferrer">
                   <div className="image_card">
-                    <Image className="card_image" src={ecommerce} />
+                    <Image className="card_image" src={ecommerce} alt="ecommerce" />
                     <div className="text_image">E COMMERCE</div>
                     <div className="text_thai">หน้าร้านค้าออนไลน์</div>
                   </div>
                 </a>
                 <a href="/" className="card" target="_blank" rel="noopener noreferrer">
                   <div className="image_card">
-                    <Image className="card_image" src={CRMAdmin} />
+                    <Image className="card_image" src={CRMAdmin} alt="CRMAdmin" />
                     <div className="text_image">CRM</div>
                     <div className="text_thai">ระบบแอดมินเพจ</div>
                   </div>

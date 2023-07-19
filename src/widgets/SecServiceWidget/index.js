@@ -26,7 +26,7 @@ const SecServiceWidget = () => {
                 target="_blank"
                 rel="noopener noreferrer">
                 <div className="image_card">
-                  <Image className="codingimage" src={Coding} />
+                  <Image className="codingimage" src={Coding} alt="Coding" />
                   <div className="text_image">รับทำเว็บแอปพลิเคชัน</div>
                   <div className="text_eng">MOBILE APP NATIVE / CROSS PLATFORM</div>
                   <div className="text_description">เริ่มต้นธุรกิจของคุณง่ายๆ ด้วยการทำแอปพลิเคชัน สร้าง Platform รองรับตลาดเทคโนโลยี</div>
@@ -38,7 +38,7 @@ const SecServiceWidget = () => {
                 target="_blank"
                 rel="noopener noreferrer">
                 <div className="image_card">
-                  <Image className="codingimage" src={computer} />
+                  <Image className="codingimage" src={computer} alt="computer" />
                   <div className="text_image">รับทำเว็บไซต์</div>
                   <div className="text_eng">WEBSITE / WEB APP</div>
                   <div className="text_description">
@@ -52,7 +52,7 @@ const SecServiceWidget = () => {
                 target="_blank"
                 rel="noopener noreferrer">
                 <div className="image_card">
-                  <Image className="codingimage" src={ux} />
+                  <Image className="codingimage" src={ux} alt="ux" />
                   <div className="text_image">ออกแบบ UX / UI</div>
                   <div className="text_eng">User Experience / User Interface</div>
                   <div className="text_description">

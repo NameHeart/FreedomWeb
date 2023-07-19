@@ -11,11 +11,11 @@ const SecAboutWidget = () => {
         <div className="about_container">
           <div className="ab_content_block">
             <div className="image_main">
-              <Image className="main_image" src={page4main} />
+              <Image className="main_image" src={page4main} alt="page4main" />
             </div>
             <div className="main_text">
               <div className="logo_text">
-                <Image className="logo_image" src={logotext} />
+                <Image className="logo_image" src={logotext} alt="logotext" />
                 <div className="head_text">
                   <div>E-COMMERCE PACKAGE</div>
                 </div>

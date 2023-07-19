@@ -8,7 +8,7 @@ export default function DetailPage3() {
       <div className="detail_process_container">
         <div className="dt_pc_content_block">
           <div className="main_image">
-            <Image className="detail_image" src={logodetail3} />
+            <Image className="detail_image" src={logodetail3} alt="logodetail3" />
           </div>
           <div className="detail_text">
             <div className="head_text">กระบวนการพัฒนา</div>
