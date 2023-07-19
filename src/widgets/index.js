@@ -1,0 +1,11 @@
+// export { default as AvatarNavWidget } from './AvatarNavWidget';
+// export { default as Navbar } from './Navbar';
+// export { default as NavbarWidget } from './NavbarWidget';
+export { default as FooterWidget } from './FooterWidget';
+export { default as SecAboutWidget } from './SecAboutWidget';
+export { default as SecContactWidget } from './SecContactWidget';
+export { default as SecHomeWidget } from './SecHomeWidget';
+export { default as SecPartnerWidget } from './SecPartnerWidget';
+export { default as SecProcessWidget } from './SecProcessWidget';
+export { default as SecProfolioWidget } from './SecProfolioWidget';
+export { default as SecServiceWidget } from './SecServiceWidget';
